@@ -15,7 +15,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 	URLProtocol.registerClass(EtcHostsURLProtocol.self)
 
 	EtcHostsURLProtocol.configureHosts { (configuration) in
-		configuration.resolveHostName(hostname: "google", to: "192.168.0.1")
+		configuration.resolveHostName(hostname: "google.com", to: "192.168.0.1")
 	}
 
 	return true
