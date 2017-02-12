@@ -1,12 +1,14 @@
-# EtcHost
+# EtcHosts
 
-EtcHost is a custom URLProtocol built on top of URLSession, which resolves host name to specific IP address directly.
+EtcHosts is a URLProtocol-based framework for *OS built on top of URLSession, which resolves host name to specific IP address directly, just likes `/etc/host` in *inux.
 
 # Example
 
+Usage is brain-dead simple with two lines of codes.
+
 ````swift
 
-import EtcHost
+import EtcHosts
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
