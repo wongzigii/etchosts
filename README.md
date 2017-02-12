@@ -1,6 +1,6 @@
 # EtcHosts
 
-EtcHosts is a URLProtocol-based framework for *OS built on top of URLSession, which resolves host name to specific IP address directly, just likes `/etc/host` in *inux.
+EtcHosts is a URLSession-based framework for *OS to resolves host name to specific IP address directly, likes `/etc/host` in *inux.
 
 ## Example
 
