@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A876693F1E4F6E4700CC1BA4 /* EtcHost.h in Headers */ = {isa = PBXBuildFile; fileRef = A876693D1E4F6E4700CC1BA4 /* EtcHost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A876693F1E4F6E4700CC1BA4 /* EtcHosts.h in Headers */ = {isa = PBXBuildFile; fileRef = A876693D1E4F6E4700CC1BA4 /* EtcHosts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A87669461E4F6E6200CC1BA4 /* EtcHostsURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87669451E4F6E6200CC1BA4 /* EtcHostsURLProtocol.swift */; };
 		A87669481E5014D100CC1BA4 /* EtcHostsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87669471E5014D100CC1BA4 /* EtcHostsConfiguration.swift */; };
-		A87669791E507FF400CC1BA4 /* EtcHostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87669781E507FF400CC1BA4 /* EtcHostTests.swift */; };
-		A876697B1E507FF400CC1BA4 /* EtcHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A876693A1E4F6E4700CC1BA4 /* EtcHost.framework */; };
+		A87669791E507FF400CC1BA4 /* EtcHostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87669781E507FF400CC1BA4 /* EtcHostsTests.swift */; };
+		A876697B1E507FF400CC1BA4 /* EtcHosts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A876693A1E4F6E4700CC1BA4 /* EtcHosts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +25,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A876693A1E4F6E4700CC1BA4 /* EtcHost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EtcHost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A876693D1E4F6E4700CC1BA4 /* EtcHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtcHost.h; sourceTree = "<group>"; };
+		A876693A1E4F6E4700CC1BA4 /* EtcHosts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EtcHosts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A876693D1E4F6E4700CC1BA4 /* EtcHosts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtcHosts.h; sourceTree = "<group>"; };
 		A876693E1E4F6E4700CC1BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A87669451E4F6E6200CC1BA4 /* EtcHostsURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtcHostsURLProtocol.swift; sourceTree = "<group>"; };
 		A87669471E5014D100CC1BA4 /* EtcHostsConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtcHostsConfiguration.swift; sourceTree = "<group>"; };
-		A87669761E507FF400CC1BA4 /* EtcHostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtcHostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A87669781E507FF400CC1BA4 /* EtcHostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcHostTests.swift; sourceTree = "<group>"; };
-		A876697A1E507FF400CC1BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87669761E507FF400CC1BA4 /* EtcHostsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtcHostsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87669781E507FF400CC1BA4 /* EtcHostsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcHostsTests.swift; sourceTree = "<group>"; };
+		A876697A1E507FF400CC1BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../EtcHosts/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A876697B1E507FF400CC1BA4 /* EtcHost.framework in Frameworks */,
+				A876697B1E507FF400CC1BA4 /* EtcHosts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,7 @@
 		A87669301E4F6E4700CC1BA4 = {
 			isa = PBXGroup;
 			children = (
-				A876693C1E4F6E4700CC1BA4 /* EtcHost */,
+				A876693C1E4F6E4700CC1BA4 /* EtcHosts */,
 				A87669771E507FF400CC1BA4 /* EtcHostTests */,
 				A876693B1E4F6E4700CC1BA4 /* Products */,
 			);
@@ -66,27 +66,27 @@
 		A876693B1E4F6E4700CC1BA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A876693A1E4F6E4700CC1BA4 /* EtcHost.framework */,
-				A87669761E507FF400CC1BA4 /* EtcHostTests.xctest */,
+				A876693A1E4F6E4700CC1BA4 /* EtcHosts.framework */,
+				A87669761E507FF400CC1BA4 /* EtcHostsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A876693C1E4F6E4700CC1BA4 /* EtcHost */ = {
+		A876693C1E4F6E4700CC1BA4 /* EtcHosts */ = {
 			isa = PBXGroup;
 			children = (
-				A876693D1E4F6E4700CC1BA4 /* EtcHost.h */,
+				A876693D1E4F6E4700CC1BA4 /* EtcHosts.h */,
 				A876693E1E4F6E4700CC1BA4 /* Info.plist */,
 				A87669451E4F6E6200CC1BA4 /* EtcHostsURLProtocol.swift */,
 				A87669471E5014D100CC1BA4 /* EtcHostsConfiguration.swift */,
 			);
-			path = EtcHost;
+			path = EtcHosts;
 			sourceTree = "<group>";
 		};
 		A87669771E507FF400CC1BA4 /* EtcHostTests */ = {
 			isa = PBXGroup;
 			children = (
-				A87669781E507FF400CC1BA4 /* EtcHostTests.swift */,
+				A87669781E507FF400CC1BA4 /* EtcHostsTests.swift */,
 				A876697A1E507FF400CC1BA4 /* Info.plist */,
 			);
 			path = EtcHostTests;
@@ -99,16 +99,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A876693F1E4F6E4700CC1BA4 /* EtcHost.h in Headers */,
+				A876693F1E4F6E4700CC1BA4 /* EtcHosts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A87669391E4F6E4700CC1BA4 /* EtcHost */ = {
+		A87669391E4F6E4700CC1BA4 /* EtcHosts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A87669421E4F6E4700CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHost" */;
+			buildConfigurationList = A87669421E4F6E4700CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHosts" */;
 			buildPhases = (
 				A87669351E4F6E4700CC1BA4 /* Sources */,
 				A87669361E4F6E4700CC1BA4 /* Frameworks */,
@@ -119,14 +119,14 @@
 			);
 			dependencies = (
 			);
-			name = EtcHost;
+			name = EtcHosts;
 			productName = EtcHost;
-			productReference = A876693A1E4F6E4700CC1BA4 /* EtcHost.framework */;
+			productReference = A876693A1E4F6E4700CC1BA4 /* EtcHosts.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A87669751E507FF400CC1BA4 /* EtcHostTests */ = {
+		A87669751E507FF400CC1BA4 /* EtcHostsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A876697E1E507FF400CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHostTests" */;
+			buildConfigurationList = A876697E1E507FF400CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHostsTests" */;
 			buildPhases = (
 				A87669721E507FF400CC1BA4 /* Sources */,
 				A87669731E507FF400CC1BA4 /* Frameworks */,
@@ -137,9 +137,9 @@
 			dependencies = (
 				A876697D1E507FF400CC1BA4 /* PBXTargetDependency */,
 			);
-			name = EtcHostTests;
+			name = EtcHostsTests;
 			productName = EtcHostTests;
-			productReference = A87669761E507FF400CC1BA4 /* EtcHostTests.xctest */;
+			productReference = A87669761E507FF400CC1BA4 /* EtcHostsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A87669341E4F6E4700CC1BA4 /* Build configuration list for PBXProject "EtcHost" */;
+			buildConfigurationList = A87669341E4F6E4700CC1BA4 /* Build configuration list for PBXProject "EtcHosts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,8 +175,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A87669391E4F6E4700CC1BA4 /* EtcHost */,
-				A87669751E507FF400CC1BA4 /* EtcHostTests */,
+				A87669391E4F6E4700CC1BA4 /* EtcHosts */,
+				A87669751E507FF400CC1BA4 /* EtcHostsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87669791E507FF400CC1BA4 /* EtcHostTests.swift in Sources */,
+				A87669791E507FF400CC1BA4 /* EtcHostsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		A876697D1E507FF400CC1BA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A87669391E4F6E4700CC1BA4 /* EtcHost */;
+			target = A87669391E4F6E4700CC1BA4 /* EtcHosts */;
 			targetProxy = A876697C1E507FF400CC1BA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -335,10 +335,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EtcHost/Info.plist;
+				INFOPLIST_FILE = EtcHosts/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHost";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHosts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -355,10 +355,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EtcHost/Info.plist;
+				INFOPLIST_FILE = EtcHosts/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHost";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHosts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -390,7 +390,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A87669341E4F6E4700CC1BA4 /* Build configuration list for PBXProject "EtcHost" */ = {
+		A87669341E4F6E4700CC1BA4 /* Build configuration list for PBXProject "EtcHosts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A87669401E4F6E4700CC1BA4 /* Debug */,
@@ -399,21 +399,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A87669421E4F6E4700CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHost" */ = {
+		A87669421E4F6E4700CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHosts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A87669431E4F6E4700CC1BA4 /* Debug */,
 				A87669441E4F6E4700CC1BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A876697E1E507FF400CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHostTests" */ = {
+		A876697E1E507FF400CC1BA4 /* Build configuration list for PBXNativeTarget "EtcHostsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A876697F1E507FF400CC1BA4 /* Debug */,
 				A87669801E507FF400CC1BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

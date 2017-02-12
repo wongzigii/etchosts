@@ -1,6 +1,6 @@
 //
 //  EtcHostsConfiguration.swift
-//  EtcHost
+//  EtcHosts
 //
 //  Created by Wong Zigii on 2017/2/12.
 //  Copyright © 2017年 Zigii Wong. All rights reserved.

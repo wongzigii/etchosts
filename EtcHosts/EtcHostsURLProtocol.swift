@@ -1,6 +1,6 @@
 //
 //  EtcHostsURLProtocol.swift
-//  EtcHost
+//  EtcHosts
 //
 //  Created by Wong Zigii on 2017/2/12.
 //  Copyright © 2017年 Zigii Wong. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal let EtcHostModifiedPropertyKey = "EtcHostModifiedPropertyKey"
+internal let EtcHostsModifiedPropertyKey = "EtcHostModifiedPropertyKey"
 
 internal let HTTPPrefix = "http"
 

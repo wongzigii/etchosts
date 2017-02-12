@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EtcHost.xcodeproj">
+      location = "self:/Users/Wongzigii/GitHub/etchost/EtcHosts.xcodeproj">
    </FileRef>
 </Workspace>

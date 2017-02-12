@@ -1,15 +1,15 @@
 //
-//  EtcHostTests.swift
-//  EtcHostTests
+//  EtcHostsTests.swift
+//  EtcHostsTests
 //
 //  Created by Wong Zigii on 2017/2/12.
 //  Copyright © 2017年 Zigii Wong. All rights reserved.
 //
 
 import XCTest
-import EtcHost
+import EtcHosts
 
-class EtcHostTests: XCTestCase {
+class EtcHostsTests: XCTestCase {
     
     var configuration: EtcHostsConfiguration!
     
