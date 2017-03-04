@@ -57,7 +57,7 @@
 		A87669301E4F6E4700CC1BA4 = {
 			isa = PBXGroup;
 			children = (
-				A876693C1E4F6E4700CC1BA4 /* EtcHosts */,
+				A876693C1E4F6E4700CC1BA4 /* Sources */,
 				A87669771E507FF400CC1BA4 /* EtcHostTests */,
 				A876693B1E4F6E4700CC1BA4 /* Products */,
 			);
@@ -72,7 +72,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A876693C1E4F6E4700CC1BA4 /* EtcHosts */ = {
+		A876693C1E4F6E4700CC1BA4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				A876693D1E4F6E4700CC1BA4 /* EtcHosts.h */,
@@ -80,7 +80,7 @@
 				A87669451E4F6E6200CC1BA4 /* EtcHostsURLProtocol.swift */,
 				A87669471E5014D100CC1BA4 /* EtcHostsConfiguration.swift */,
 			);
-			path = EtcHosts;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		A87669771E507FF400CC1BA4 /* EtcHostTests */ = {
