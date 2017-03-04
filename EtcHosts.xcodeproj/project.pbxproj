@@ -32,7 +32,7 @@
 		A87669471E5014D100CC1BA4 /* EtcHostsConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtcHostsConfiguration.swift; sourceTree = "<group>"; };
 		A87669761E507FF400CC1BA4 /* EtcHostsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtcHostsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87669781E507FF400CC1BA4 /* EtcHostsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcHostsTests.swift; sourceTree = "<group>"; };
-		A876697A1E507FF400CC1BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../EtcHosts/Info.plist; sourceTree = "<group>"; };
+		A876697A1E507FF400CC1BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				A876693C1E4F6E4700CC1BA4 /* Sources */,
-				A87669771E507FF400CC1BA4 /* EtcHostTests */,
+				A87669771E507FF400CC1BA4 /* Tests */,
 				A876693B1E4F6E4700CC1BA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,13 +83,13 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		A87669771E507FF400CC1BA4 /* EtcHostTests */ = {
+		A87669771E507FF400CC1BA4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A87669781E507FF400CC1BA4 /* EtcHostsTests.swift */,
 				A876697A1E507FF400CC1BA4 /* Info.plist */,
 			);
-			path = EtcHostTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +335,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EtcHosts/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHosts";
@@ -355,7 +355,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EtcHosts/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHosts";
@@ -368,7 +368,7 @@
 		A876697F1E507FF400CC1BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = EtcHostTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHostTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,7 +379,7 @@
 		A87669801E507FF400CC1BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = EtcHostTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zigii-Wong.EtcHostTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
